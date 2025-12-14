@@ -1,16 +1,99 @@
-# React + Vite
+# React Mini Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains multiple **React mini-projects** that I built while practicing and strengthening my frontend development skills. Each project focuses on a specific React concept such as state management, event handling, conditional rendering, and component-based architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Projects Included
 
-## React Compiler
+### 1️⃣ Counter App
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Simple counter with increment functionality
+* Demonstrates usage of `useState`
 
-## Expanding the ESLint configuration
+### 2️⃣ Todo App
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Add and delete todos
+* Covers CRUD operations using React state
+* Demonstrates list rendering and event handling
+
+### 3️⃣ Lottery Game
+
+* Generates random lottery tickets
+* Checks winning condition based on ticket sum ( we can also modify the winning condition in App.jsx )
+* Uses helper functions and props
+
+### 4️⃣ Comments App
+
+* Add comments with username and rating
+* Uses **Formik** (library) for form handling and validation ( Prevents submission without username )
+* Demonstrates form validation and state lifting
+* Demonstrates form handling and state lifting
+
+### 5️⃣ Button Click App
+
+* Basic button click handling
+* Demonstrates event handling in React
+
+### 6️⃣ Joker App
+
+* Fetches random jokes from an API
+* Demonstrates `useEffect` and API integration
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* JavaScript (ES6+)
+* HTML & CSS
+
+---
+
+## ▶️ How to Run a Project
+
+All projects are managed from a single `App.jsx` file.
+
+To run a specific project:
+
+1. Open `src/App.jsx`
+2. Change the value of `ACTIVE_APP` to the required project name
+
+Example:
+
+```js
+const ACTIVE_APP = "TODO";
+```
+
+Available options:
+
+* `BUTTON`
+* `COUNTER`
+* `FORM`
+* `TODO`
+* `LOTTERY`
+* `COMMENTS`
+* `JOKER`
+
+---
+
+## 📚 What I Learned
+
+* React component structure
+* State management using `useState`
+* Side effects using `useEffect`
+* Passing **async functions inside `useEffect` using arrow functions**
+* Props and reusable components
+* Handling forms and user input
+* Form validation using **Formik**
+* Basic API integration
+
+---
+
+## ✨ Notes
+
+This repository is meant for **learning and practice**.
+
+---
+
+⭐ Feel free to explore the projects!
